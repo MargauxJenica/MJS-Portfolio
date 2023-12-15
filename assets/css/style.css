@@ -1,19 +1,22 @@
 :root{
 
 }
+body{
+    background-color: rgb(107, 85, 107);
+}
 header{
     padding: 15px;
     font-family: 'Roboto Slab', 'Open Sans', Roboto, Lato;
     background-color: rgb(179, 120, 179);
     color: #ffffff;
+    
 }
 header nav{
     padding-top: 10px;
-    margin: 20px;
-    float: right;
+    /* margin: 20px; */
+    text-align: right;
     font-family: 'Roboto Slab', 'Open Sans', Roboto, Lato;
-    font-size: 20px;
-    background-color: rgb(207, 165, 207);
+    font-size: 16px;
 }
 header nav ul{
     list-style-type: none;
@@ -21,5 +24,25 @@ header nav ul{
 header nav ul li {
     display: inline-block;
     margin-left: 10px;
+}
+.bio{
+
+}
+.card img{
+    width: 50%;
+}
+footer{
+    background-color: rgb(179, 120, 179);
+}
+#contact{
+    /* padding: 15px; */
+    text-align: center;
+}
+footer h4{
+    padding: 15px 0px 15px 0px;
+}
+footer nav ul li{
+    list-style-type: none;
+    display: inline;
 }
 /* display flex and justify content  */
