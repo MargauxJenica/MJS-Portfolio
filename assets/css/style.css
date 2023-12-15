@@ -1,0 +1,25 @@
+:root{
+
+}
+header{
+    padding: 15px;
+    font-family: 'Roboto Slab', 'Open Sans', Roboto, Lato;
+    background-color: rgb(179, 120, 179);
+    color: #ffffff;
+}
+header nav{
+    padding-top: 10px;
+    margin: 20px;
+    float: right;
+    font-family: 'Roboto Slab', 'Open Sans', Roboto, Lato;
+    font-size: 20px;
+    background-color: rgb(207, 165, 207);
+}
+header nav ul{
+    list-style-type: none;
+}
+header nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+/* display flex and justify content  */
